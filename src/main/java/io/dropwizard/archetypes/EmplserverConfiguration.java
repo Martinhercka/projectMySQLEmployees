@@ -6,5 +6,5 @@ import org.hibernate.validator.constraints.*;
 import javax.validation.constraints.*;
 
 public class EmplserverConfiguration extends Configuration {
-    // TODO: implement service configuration
+
 }

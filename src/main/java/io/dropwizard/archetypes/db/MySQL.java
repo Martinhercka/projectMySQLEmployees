@@ -22,6 +22,7 @@ public class MySQL
 
         String salary="";
         try {
+
             Class.forName(driver).newInstance();
 
             conn = DriverManager.getConnection(url,username,password);
