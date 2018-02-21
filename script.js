@@ -4,9 +4,7 @@ $(document).ready(function() {
 
 var lstname=$("#lastname").val();
 
-/*Snažil som sa to urobiť cez POST a pomocou dataType : json, zatial mi to funguje len s tým pluginom do Chrome, ktorý povoli Cross-Origin.
-Ale cez postmana to funguje všetko ako má
-*/
+
 
 $.ajax({
         url : "http://localhost:8080/employees/salary",
